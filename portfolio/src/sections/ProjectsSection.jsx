@@ -14,10 +14,10 @@ const ProjectsSection = () => {
       description: 'AI-powered Intrusion Detection System (IDS) that classifies live network traffic threats using NLP techniques.',
       fullDescription:
         'An intelligent cybersecurity tool that monitors live network traffic to detect malicious activity. It pioneers an NLP-based approach by treating packet payloads as text and using TF-IDF vectorization for anomaly detection. The application features a dual-mode operation (Live Sniffing & Simulation) and visualizes threat levels instantly via a responsive Flask dashboard.',
-      image: '/src/assets/images/ids.png',
+      image: '/assets/images/ids.png',
       tech: ['Python', 'Scikit-learn', 'Scapy', 'Flask', 'Pandas', 'NLTK'],
       demo: '#',
-      video: '/src/assets/videos/RTNPC.mp4',
+      video: '/assets/videos/RTNPC.mp4',
       github: 'https://github.com/afsal1122/AIML_Projects/tree/main/network-packet-classifier'
     },
     {
@@ -26,10 +26,10 @@ const ProjectsSection = () => {
       description: 'Full-stack data science application for accurate market price prediction and persona-based product recommendations.',
       fullDescription:
         'A sophisticated machine learning application designed to predict laptop market prices with high accuracy using XGBoost regression. Beyond simple prediction, it includes a weighted recommendation engine that scores products based on specific user personas (Gaming, Coding, Content Creation) and provides interactive visual analytics of market trends.',
-      image: '/src/assets/images/lpr.png',
+      image: '/assets/images/lpr.png',
       tech: ['Python', 'XGBoost', 'Scikit-learn', 'Streamlit', 'Pandas'],
       demo: '#',
-      video: '/src/assets/videos/LPP.mp4',
+      video: '/assets/videos/LPP.mp4',
       github: 'https://github.com/afsal1122/AIML_Projects/tree/main/Laptop-Price-Prediction'
     },
     {
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
         'A touch-free HCI system enabling mouse control and concurrent voice typing using real-time computer vision.',
       fullDescription:
         'A robust Human-Computer Interaction system that eliminates the need for physical peripherals. It utilizes geometric algorithms for precise hand tracking and implements exponential smoothing to reduce cursor jitter. The system features a multi-threaded architecture to handle real-time gesture recognition alongside concurrent speech-to-text typing.',
-      image: '/src/assets/images/hga.png',
+      image: '/assets/images/hga.png',
       tech: ['OpenCV', 'MediaPipe', 'Autopy', 'NumPy', 'Python'],
       demo: '#',
       video: '', // Add YouTube link or video URL here
