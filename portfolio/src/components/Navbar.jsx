@@ -34,7 +34,7 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed w-full z-50 transition-all duration-300 ${scrolled
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled || isOpen
         ? 'py-3 glass-card'
         : 'py-3 bg-transparent border border-transparent'
         }`}
